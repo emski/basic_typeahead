@@ -1,0 +1,28 @@
+.typeahead-container {
+	position: relative;
+}
+
+#typeahead-input {
+}
+
+#typeahead-values {
+	border: 1px solid #fefefe;
+	background-color: #eee;
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	width: 200px;
+}
+#typeahead-values li{
+	width: 100%;
+	padding: 5px 10px;
+	background-color: #eee;
+	border-top: 1px solid #fff;
+}
+#typeahead-values li:hover {
+    background-color: #eee;
+}
+
+#typeahead-values.hidden {
+	display: none;
+}
